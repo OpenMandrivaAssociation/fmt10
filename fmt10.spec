@@ -1,6 +1,5 @@
 %define major %(echo %{version}|cut -d. -f1)
-%define libname %mklibname %{name} %{major}
-%define devel %mklibname -d %{name}
+%define libname %mklibname fmt %{major}
 
 Summary:	Old version of the small, safe and fast formatting library
 Name:		fmt10
